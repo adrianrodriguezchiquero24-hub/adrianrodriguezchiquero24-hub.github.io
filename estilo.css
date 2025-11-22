@@ -3,19 +3,24 @@
     padding: 0.05%;
 }
 
+header {
+    border: 2px black;
+    text-align: center;
+    background: aqua;
+}
+
 body 
 {
     font-family: Arial, fantasy, times;
 }
 
-header 
-{
-    border: 2px black;
+section {
     text-align: center;
-    background: blue;
+    align-content: center;
 }
 
-li {
+li 
+{
     text-align: center;
     text-decoration-line: underline;
 }
