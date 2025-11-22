@@ -1,0 +1,21 @@
+* {
+    margin: 1%;
+    padding: 0.05%;
+}
+
+body 
+{
+    font-family: Arial, fantasy, times;
+}
+
+header 
+{
+    border: 2px black;
+    text-align: center;
+    background: blue;
+}
+
+li {
+    text-align: center;
+    text-decoration-line: underline;
+}
