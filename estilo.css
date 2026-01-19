@@ -9,10 +9,7 @@ header
     background: aqua;
 }
 
-body 
-{
-    font-family: Arial, fantasy, times;
-}
+
 
 .Proyecto-Destacado
 {
@@ -34,7 +31,16 @@ li
     text-decoration-line: underline;
 }
 
-@media and (min-with: 700px)
+@media and (min-with: 1024px)
+{
+    body 
+    {
+        background-color: lightblue;
+        font-family: Arial, fantasy, times;
+    }
+}
+
+@media and (max-with: 768px)
 {
 
 }
