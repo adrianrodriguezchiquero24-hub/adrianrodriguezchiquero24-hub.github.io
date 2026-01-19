@@ -9,7 +9,11 @@ header
     background: aqua;
 }
 
-
+body 
+    {
+        background-color: #333;
+        font-family: Arial, fantasy, times;
+    }
 
 .Proyecto-Destacado
 {
@@ -31,12 +35,31 @@ li
     text-decoration-line: underline;
 }
 
+.row
+{
+    display: flex;
+    flex-warp: warp;
+}
+
+.main
+{
+    flex: 50%
+}
+
+.side
+{
+    flex: 50%
+}
+
 @media and (min-with: 1024px)
 {
-    body 
+    body
     {
-        background-color: lightblue;
-        font-family: Arial, fantasy, times;
+        backgroundcolor: yellow;
+    }
+    .row
+    {   
+    flex-direction: column;
     }
 }
 
