@@ -53,10 +53,6 @@ li
 
 @media and (min-with: 1024px)
 {
-    body
-    {
-        backgroundcolor: yellow;
-    }
     .row
     {   
     flex-direction: column;
