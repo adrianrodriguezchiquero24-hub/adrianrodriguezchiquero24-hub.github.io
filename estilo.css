@@ -14,7 +14,7 @@ body
     font-family: Arial, fantasy, times;
 }
 
-article
+figure
 {
     display: flex;
     justify-content: center;
