@@ -34,28 +34,23 @@ li
     text-decoration-line: underline;
 }
 
-.row
+img
 {
-    display: flex;
-    flex-warp: warp;
+    width: 75%;
+    height: auto;
+    align: center;
 }
 
-.main
+iframe
 {
-    flex: 50%
-}
-
-.side
-{
-    flex: 50%
+     width: 75%;
+    height: auto;
+    align: center;
 }
 
 @media and (min-with: 1024px)
 {
-    .row
-    {   
-    flex-direction: column;
-    }
+
 }
 
 @media and (max-with: 768px)
