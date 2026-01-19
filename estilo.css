@@ -55,6 +55,7 @@ li
     .row
     {   
     flex-direction: column;
+    max-with: with-sceen;
     }
 }
 
