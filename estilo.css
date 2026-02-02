@@ -13,6 +13,10 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+
+
+
 }
 
 .menu li {
@@ -20,6 +24,12 @@
   margin-bottom: 7px;
   background-color: #33b5e5;
   color: #ffffff;
+  
+}
+li a:hover
+{
+    background-color: #555555;
+    color: Black;
 }
 
 body 
@@ -32,6 +42,7 @@ body
 .menu
 {
     grid-area: menu;
+    
 }
 
 .content
